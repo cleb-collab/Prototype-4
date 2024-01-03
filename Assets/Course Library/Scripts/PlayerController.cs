@@ -11,13 +11,14 @@ public class PlayerController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        focalPoint = GameObject.Find("Focal Point");
         playerRb = GetComponent<Rigidbody>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        float fowardInput = Input.GetAxis("Vertical");
+        fowardInput = Input.GetAxis("Vertical");
         playerRb.AddForce(focalPoint.transform.forward * speed * fowardInput);
     }
 }
