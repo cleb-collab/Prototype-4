@@ -230,3 +230,4 @@ Received Import Request.
 Start importing Assets/Course Library/Prefabs/Enemy.prefab using Guid(573e689f8164240a1be6f07787059cc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09f84238bbd3e693732d3ec05bb8bde2') in 0.680068 seconds 
   Import took 0.685435 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
